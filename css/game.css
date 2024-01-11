@@ -4,7 +4,7 @@ main {
 	width: 100%;
 	background-image: url("../images/bg.jpg");
 	background-size: cover;
-	max-height: 100vh;
+	min-height: 100vh;
 	align-items: center;
 	justify-content: center;
 	padding: 20px 20px 50px;
@@ -25,9 +25,9 @@ header {
 
 .grid {
 	display: grid;
-	grid-template-columns: repeat(7, 1fr);
+	grid-template-columns: repeat(5, 1fr);
 	gap: 15px;
-	width: 100%;
+	width: 50%;
 	max-width: 1200px;
 	margin: 0 auto;
 }
